@@ -9,6 +9,24 @@
   "use strict";
 
   var API = "https://account.dreamteamhub.ca";
+
+  // Guest identity shared with the plaza (io.dreamteamhub.ca): a random name and colour in the
+  // dth_guest cookie on .dreamteamhub.ca, made on whichever site a visitor reaches first and kept
+  // until they change it in the plaza. Format "<prefix>.<suffix>.<rrggbb>": the numbers pick words
+  // from the plaza's name lists (it wraps them to the list lengths). Signed-in players use their
+  // profile's name and skin colour instead.
+  if (!/(?:^|;\s*)dth_guest=/.test(document.cookie)) {
+    var hue = Math.floor(Math.random() * 360), s = 0.7, l = 0.58;
+    var f = function (n) {
+      var k = (n + hue / 30) % 12;
+      return l - s * Math.min(l, 1 - l) * Math.max(-1, Math.min(k - 3, 9 - k, 1));
+    };
+    var hex = [f(0), f(8), f(4)].map(function (v) { return ("0" + Math.round(v * 255).toString(16)).slice(-2); }).join("");
+    var domain = /(^|\.)dreamteamhub\.ca$/.test(location.hostname) ? "; Domain=dreamteamhub.ca" : "";
+    document.cookie = "dth_guest=" + Math.floor(Math.random() * 20) + "." + Math.floor(Math.random() * 20) + "." + hex +
+      "; Path=/; Max-Age=31536000; SameSite=Lax" + domain + (location.protocol === "https:" ? "; Secure" : "");
+  }
+
   var root = document.getElementById("account");
   if (!root) return;
 
