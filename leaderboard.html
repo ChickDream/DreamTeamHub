@@ -4,46 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Leaderboard ~ Dream Team Hub</title>
-  <meta name="description" content="Top players across Dream Team Hub games.">
-  <link rel="canonical" href="https://dreamteamhub.ca/leaderboard.html">
-  <!-- Icons (in favicons/; favicon.ico stays at the root, where browsers and Google look for it
-       by default): PNGs for modern tabs, apple-touch-icon for
-       iPhone/iPad home screens, site.webmanifest for Android home screens and installs. -->
-  <link rel="icon" href="/favicon.ico" sizes="48x48">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/favicons/android-chrome-192x192.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
-  <link rel="manifest" href="/favicons/site.webmanifest">
-  <meta name="theme-color" content="#f4f5f8" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#121319" media="(prefers-color-scheme: dark)">
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- The leaderboard moved to its own site; this keeps old links working. -->
+  <link rel="canonical" href="https://leaderboard.dreamteamhub.ca/">
+  <meta http-equiv="refresh" content="0; url=https://leaderboard.dreamteamhub.ca/">
+  <meta name="robots" content="noindex">
+  <script>location.replace("https://leaderboard.dreamteamhub.ca/");</script>
 </head>
 <body>
-  <header class="site-header">
-    <nav class="site-nav" aria-label="Site">
-      <a class="pill-link" href="/">&larr; Games</a>
-    </nav>
-    <!-- Filled in by js/account.js: "Sign in", or the player's name with a menu. -->
-    <div id="account" class="account"></div>
-    <h1>Leaderboard</h1>
-    <p class="tagline">Only matches between two signed-in players count.</p>
-  </header>
-
-  <main>
-    <!-- Tabs and table filled in by js/leaderboard.js. -->
-    <section class="leaderboard" aria-label="Leaderboards">
-      <div id="leaderboard-tabs" class="leaderboard__tabs" role="tablist" aria-label="Game"></div>
-      <div id="leaderboard-panel" class="leaderboard__panel" role="tabpanel"></div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <p>&copy; <span id="year"></span> Dream Team Hub &middot; <a href="privacy.html">Privacy</a> &middot; <a href="contact.html">Contact</a></p>
-  </footer>
-
-  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
-  <script src="js/account.js"></script>
-  <script src="js/leaderboard.js"></script>
+  <p>The leaderboard has moved to <a href="https://leaderboard.dreamteamhub.ca/">leaderboard.dreamteamhub.ca</a>.</p>
 </body>
 </html>
