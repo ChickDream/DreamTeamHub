@@ -16,7 +16,7 @@
   </header>
 
   <main class="prose">
-    <p>Last updated: October 28, 2026</p>
+    <p>Last updated: November 3, 2026</p>
 
     <h2>Signing in is optional</h2>
     <p>Every game on dreamteamhub.ca can be played as a guest. Signing in with Google only matters
@@ -25,20 +25,24 @@
     <h2>What we store when you sign in</h2>
     <ul>
       <li><strong>A Google account ID.</strong> Google gives us a random number that identifies your
-        account to us. We don't ask for, receive or store your email address, real name or photo.</li>
+        account to us.</li>
+      <li><strong>Your email address</strong>, from Google. Only the site admin can see it, to help with
+        your account or donations. It's never shown to other players. We don't receive your real name
+        or photo.</li>
       <li><strong>Your display name</strong>, like "LuckyOtter". It starts random and you can change it
-        from the menu at the top of the home page. Other players can see it.</li>
+        on your profile page. Other players can see it.</li>
       <li><strong>A login cookie</strong> called <code>dth_session</code>, set on dreamteamhub.ca so every
         game knows you're signed in. It lasts 60 days or until you sign out. We only keep a scrambled
         (hashed) copy of it.</li>
-      <li><strong>Game results</strong> (wins, rankings and similar) once leaderboards are added, linked
-        to your account.</li>
+      <li><strong>Game results</strong> (wins, losses and rankings), linked to your account.</li>
+      <li><strong>Donations and cosmetics.</strong> If you support us, the amount and any cosmetic items
+        you've unlocked are recorded on your account.</li>
     </ul>
     <p>We don't sell or share this information. It's stored with Cloudflare, which runs our account
       service.</p>
 
     <h2>Delete your account</h2>
-    <p>This permanently deletes your account, display name, results and every login session. You can
+    <p>This permanently deletes your account, email, display name, results, cosmetics and every login session. You can
       sign in again later, but you'll start over as a new player.</p>
     <form id="delete-account" class="danger-form" method="post" action="https://account.dreamteamhub.ca/me/delete">
       <button type="submit" class="danger-button">Delete my account</button>
