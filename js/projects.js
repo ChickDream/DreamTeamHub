@@ -39,14 +39,14 @@ window.PROJECTS = [
   },
   {
     title: "Flappy Duel",
-    description: "1v1 flappy bird",
+    description: "soar until you snore",
     subdomain: "flappyduel",
     image: "images/projects/flappyduel.png",
     author: "Jordan",
   },
   {
     title: "Mahjong Mania",
-    description: "experience the thrill of drawing the tile you just discarded",
+    description: "my face when Tenhou Chuuren Poutou",
     subdomain: "mahjongmania",
     image: "images/projects/mahjong.png",
     author: "Jordan",
