@@ -181,6 +181,22 @@ main {
   font-size: 0.85rem;
 }
 
+.account__profile {
+  display: block;
+  margin-top: 8px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+
+.account__profile:hover {
+  box-shadow: 0 0 0 2px rgba(132, 204, 22, 0.5);
+}
+
 .account__logout {
   margin: 12px 0 0;
   padding-top: 12px;

@@ -67,6 +67,11 @@
     rename.append(prefix, suffix, save, status);
     panel.appendChild(rename);
 
+    // Your page on profile.dreamteamhub.ca, addressed by the same number as above.
+    var profile = el("a", "account__profile", "View profile");
+    profile.href = "https://profile.dreamteamhub.ca/" + (user.id - 1);
+    panel.appendChild(profile);
+
     // A plain form, so signing out works even if the request can't be read back.
     var logout = el("form", "account__logout");
     logout.method = "post";
