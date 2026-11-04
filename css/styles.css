@@ -264,6 +264,10 @@ main {
   background: #24452a;
 }
 
+.plaza-banner__media picture {
+  display: contents;
+}
+
 .plaza-banner__media img {
   display: block;
   width: 100%;

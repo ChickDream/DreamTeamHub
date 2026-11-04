@@ -39,7 +39,12 @@
     <!-- The plaza is the walk-around lobby for every game below, so it gets a banner rather than a card. -->
     <a class="plaza-banner" href="https://io.dreamteamhub.ca/">
       <div class="plaza-banner__media">
-        <img src="images/projects/plaza.png" alt="" decoding="async">
+        <!-- Phones get a closer crop of the plaza so player names stay readable at that size;
+             700px is where the banner stacks (see .plaza-banner in css/styles.css). -->
+        <picture>
+          <source media="(max-width: 700px)" srcset="images/projects/plaza-mobile.png">
+          <img src="images/projects/plaza.png" alt="" decoding="async">
+        </picture>
       </div>
       <div class="plaza-banner__body">
         <span class="plaza-banner__badge">New &middot; multiplayer</span>
