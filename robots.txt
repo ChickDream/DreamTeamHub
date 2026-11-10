@@ -140,3 +140,4 @@ Disallow:
 # disallow all other bots
 User-agent: *
 Disallow: /
+Sitemap: https://dreamteamhub.ca/sitemap.xml

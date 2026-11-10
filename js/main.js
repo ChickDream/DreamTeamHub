@@ -77,7 +77,9 @@
       fragment.appendChild(createCard(p));
     });
     fragment.appendChild(createComingSoonCard());
-    grid.appendChild(fragment);
+    // Replaces the copy of the cards written into index.html for search engines
+    // (scripts/build-home.mjs), so js/projects.js stays the source of truth.
+    grid.replaceChildren(fragment);
   }
 
   document.getElementById("year").textContent = new Date().getFullYear();
