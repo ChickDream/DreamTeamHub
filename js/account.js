@@ -10,7 +10,7 @@
 
   var API = "https://account.dreamteamhub.ca";
 
-  // Guest identity shared with the plaza (io.dreamteamhub.ca): a random name and colour in the
+  // Guest identity shared with the plaza (plaza.dreamteamhub.ca): a random name and colour in the
   // dth_guest cookie on .dreamteamhub.ca, made on whichever site a visitor reaches first and kept
   // until they change it in the plaza. Format "<prefix>.<suffix>.<rrggbb>": the numbers pick words
   // from the plaza's name lists (it wraps them to the list lengths). Signed-in players use their
