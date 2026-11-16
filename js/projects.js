@@ -25,7 +25,7 @@ window.PROJECTS = [
   },
   {
     title: "Tanks",
-    description: "shoot your friends/enemies",
+    description: "shoot your friends and enemies",
     subdomain: "tanks",
     image: "images/projects/tank.png",
     author: "Sean",
@@ -46,7 +46,7 @@ window.PROJECTS = [
   },
   {
     title: "Mahjong Mania",
-    description: "my face when Tenhou Chuuren Poutou",
+    description: "crazy rich",
     subdomain: "mahjongmania",
     image: "images/projects/mahjong.png",
     author: "Jordan",
