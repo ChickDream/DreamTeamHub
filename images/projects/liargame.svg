@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Liar Game thumbnail: the game's red devil doodle, dressed as a spy. Same ink style as
+       ZoomZoom/src/components/Doodles.tsx (round strokes, hand-drawn curves) and its dark theme. -->
+  <rect width="512" height="512" fill="#1d1b1e"/>
+
+  <!-- background doodles: flowers (violet, faint) -->
+  <g stroke="#7a74e8" stroke-width="5" opacity="0.35">
+    <g transform="translate(58 360)">
+      <ellipse cx="24" cy="12" rx="7" ry="11" transform="rotate(0 24 24)"/>
+      <ellipse cx="24" cy="12" rx="7" ry="11" transform="rotate(72 24 24)"/>
+      <ellipse cx="24" cy="12" rx="7" ry="11" transform="rotate(144 24 24)"/>
+      <ellipse cx="24" cy="12" rx="7" ry="11" transform="rotate(216 24 24)"/>
+      <ellipse cx="24" cy="12" rx="7" ry="11" transform="rotate(288 24 24)"/>
+      <circle cx="24" cy="24" r="5" fill="#7a74e8"/>
+      <path d="M24 37 C22 52 26 64 22 84"/>
+      <path d="M24 62 C32 54 41 55 45 58 C38 64 31 64 24 62 Z"/>
+    </g>
+    <g transform="translate(44 70) scale(0.8)">
+      <ellipse cx="24" cy="12" rx="7" ry="11" transform="rotate(0 24 24)"/>
+      <ellipse cx="24" cy="12" rx="7" ry="11" transform="rotate(72 24 24)"/>
+      <ellipse cx="24" cy="12" rx="7" ry="11" transform="rotate(144 24 24)"/>
+      <ellipse cx="24" cy="12" rx="7" ry="11" transform="rotate(216 24 24)"/>
+      <ellipse cx="24" cy="12" rx="7" ry="11" transform="rotate(288 24 24)"/>
+      <circle cx="24" cy="24" r="5" fill="#7a74e8"/>
+    </g>
+  </g>
+
+  <!-- "?" thought bubble, like the one beside the devil on the game's home screen -->
+  <g stroke="#fbf9f8" stroke-width="6">
+    <path d="M420 66 C450 64 466 84 464 110 C462 136 442 150 418 148 C392 146 376 128 378 104 C380 80 398 68 420 66 Z"/>
+    <path d="M408 96 C408 80 434 80 434 98 C434 112 421 112 421 124"/>
+    <circle cx="421" cy="136" r="2.5" fill="#fbf9f8"/>
+    <path d="M384 136 L366 152"/>
+  </g>
+
+  <g stroke="#e5483f" stroke-width="9">
+    <!-- devil horns poking through the hat -->
+    <path d="M204 120 C190 96 192 74 200 60 C206 80 216 90 230 96"/>
+    <path d="M308 120 C322 96 320 74 312 60 C306 80 296 90 282 96"/>
+
+    <!-- fedora: crown with its dent, band, brim -->
+    <path d="M184 174 C180 132 194 104 256 102 C318 104 332 132 328 174"/>
+    <path d="M222 108 C236 124 276 124 290 108"/>
+    <path d="M186 160 C230 170 282 170 326 160" stroke-width="14"/>
+    <path d="M134 182 C188 160 324 160 378 182 C334 198 178 198 134 182 Z"/>
+
+    <!-- face -->
+    <path d="M192 192 C188 240 214 272 256 272 C298 272 324 240 320 192"/>
+
+    <!-- sunglasses -->
+    <path d="M194 204 C200 198 244 198 250 204 C252 224 240 236 222 236 C204 236 192 224 194 204 Z" fill="#0f0d10"/>
+    <path d="M262 204 C268 198 312 198 318 204 C320 224 308 236 290 236 C272 236 260 224 262 204 Z" fill="#0f0d10"/>
+    <path d="M250 208 C254 203 258 203 262 208"/>
+
+    <!-- the devil's grin -->
+    <path d="M218 248 C234 264 278 266 296 244" stroke-width="7"/>
+    <path d="M218 248 C240 254 272 254 296 244" stroke-width="5"/>
+    <path d="M240 253 L241 259 M258 254 L258 260 M276 251 L275 257" stroke-width="3"/>
+
+    <!-- trench coat: collar, body, hem, belt -->
+    <path d="M226 272 L198 302 L234 316 L256 286 L278 316 L314 302 L286 272"/>
+    <path d="M198 302 C176 334 166 400 160 466"/>
+    <path d="M314 302 C336 334 346 400 352 466"/>
+    <path d="M160 466 C222 478 290 478 352 466"/>
+    <path d="M256 288 L256 470"/>
+    <path d="M172 380 C228 390 284 390 340 380"/>
+    <path d="M244 374 L268 374 L268 392 L244 392 Z" stroke-width="6"/>
+
+    <!-- arm in the pocket -->
+    <path d="M200 316 C176 344 168 372 178 400"/>
+    <!-- arm holding the magnifying glass -->
+    <path d="M316 318 C346 330 372 336 394 318"/>
+  </g>
+
+  <!-- buttons -->
+  <g fill="#e5483f">
+    <circle cx="238" cy="330" r="6"/>
+    <circle cx="238" cy="356" r="6"/>
+    <circle cx="274" cy="330" r="6"/>
+    <circle cx="274" cy="356" r="6"/>
+  </g>
+
+  <!-- magnifying glass (violet, like the game's buttons) -->
+  <g stroke="#7a74e8" stroke-width="9">
+    <path d="M396 314 L428 280"/>
+    <circle cx="452" cy="254" r="34"/>
+    <path d="M436 238 C440 232 448 230 456 232" stroke-width="5" stroke="#fbf9f8" opacity="0.7"/>
+  </g>
+</svg>

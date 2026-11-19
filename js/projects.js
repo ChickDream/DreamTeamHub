@@ -64,4 +64,10 @@ window.PROJECTS = [
     image: "images/projects/mineduel.jpg",
     author: "Jordan",
   },
+  {
+    title: "Liar Game",
+    description: "sussy baka",
+    subdomain: "liargame",
+    image: "images/projects/liargame.svg",
+  },
 ];
